@@ -1,3 +1,8 @@
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
 @media (max-width: 768px) {
   body {    
     text-align: center;
@@ -10,13 +15,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: green;
-    color: gold;
+    background-color: green;   
   } 
 
   .logoStyle {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
   }
 
@@ -39,29 +44,98 @@
   }
 
   .imageStyle {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    background-color: black; 
+    display: flex;    
+    flex-direction: row;     
+    background-color: green;    
   }
 
   .img01Style {
-    display: flex;
-
+    display: flex;    
+    justify-content: center;
+    background-color: green;    
   }
 
-  .headerImg01{    
-    background-color: green;
-    width: 60px; 
+  .headerImg01{  
+    display: flex;
+    width: 70px;  
   }
 
   .pageStyle {
-    margin-top: 100px;
+    margin-top: 110px;
   }
 
   .linkStyle {
     padding: 5px;
     margin: 4px;
+  }
+
+  .img01 {
+    width: 30%;
+  }
+
+  .roll {
+    width: 30%;    
+    animation: spin 1.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-fill-mode: forwards;
+  }
+
+  .homeHello {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;  
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .helloText {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;    
+  }
+  
+  .ballKeeper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .balls {
+    display: inline-flex;
+    background-color: purple;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+  } 
+
+  .resultCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resultLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .epa {
+    color: red;
+  }
+
+  .quase {
+    color: cyan;
+  }
+
+  .top {
+    color: lime;
   }
 }
 

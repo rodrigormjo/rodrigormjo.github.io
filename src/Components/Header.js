@@ -15,7 +15,7 @@ class Header extends React.Component {
     let hex = '#';
     const hexChart = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"]
     for(let i = 0; i < 6; i+=1){
-      const index = Math.floor(Math.random() * 16)
+      const index = Math.floor(Math.random() * 16);
       hex += hexChart[index];
     }
     this.setState({color: hex});    
@@ -38,12 +38,10 @@ class Header extends React.Component {
   render(){    
     return(
       <div  className='fixedStyle'>        
-        <div className='imageStyle'>
-          <div className='img01Style'>
-            <Link to="/forevis">
-            <img src={img} alt='leprechaun' className='headerImg01' />
-            </Link>
-          </div>
+        <div className='imageStyle'>          
+          <Link to="/pote" className='img01Style'>
+            <img src={img} alt='goldPot' className='headerImg01' />
+          </Link>          
           <div className='logoStyle'>
             <span className='titleStyle'>O Pote de Ouro</span>
             <span className='subtitleStyle'>Aumente suas chances de ganhar na loteria!</span>

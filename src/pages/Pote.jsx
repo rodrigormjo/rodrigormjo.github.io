@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header';
+import Header from '../Components/Header';
 
-class NotFound extends React.Component {
+class Pote extends React.Component {
   constructor(props){
     super(props);    
     this.state ={
@@ -35,4 +35,4 @@ class NotFound extends React.Component {
   }
 }
 
-export default NotFound;
+export default Pote;
