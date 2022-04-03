@@ -11,7 +11,7 @@ import Pote from './pages/Pote';
 function App() {  
   return (    
     <>      
-      <BrowserRouter>
+      <BrowserRouter basename="/rodrigormjo.github.io">
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/closure" component={ Closure } />
