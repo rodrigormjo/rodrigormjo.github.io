@@ -49,12 +49,12 @@ class Header extends React.Component {
               <Link to="/">
                 <button className="linkStyle">Gerador</button>
               </Link>
-              <Link to="/unfolding">
-                <button className="linkStyle">Desdobramento</button>
+              <Link to="/stats">
+                <button className="linkStyle">Dicas</button>
               </Link>
-              <Link to="/closure">
+              {/* <Link to="/closure">
                 <button className="linkStyle">Fechamento</button>
-              </Link>
+              </Link> */}
             </div>
           </div>          
         </div>

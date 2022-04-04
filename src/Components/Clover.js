@@ -16,7 +16,7 @@ export default class Clover extends React.Component {
         element.push(`0${i}`);
       }
       if(i >= 10) {
-        element.push(i);
+        element.push(i.toString());
       }
     }
     return element;

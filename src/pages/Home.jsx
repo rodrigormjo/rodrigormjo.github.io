@@ -36,8 +36,7 @@ class Home extends React.Component {
   }
 
   componentDidMount = () => {
-    this.setState({mounted: true})
-       
+    this.setState({mounted: true}) 
   }
 
   componentDidUpdate = () => {    
@@ -55,11 +54,11 @@ class Home extends React.Component {
     this.setState({loading: false, mounted: false});
   }
 
-  render(){
+  render(){    
     const {loading, roll} = this.state;
     return(
       <div className='pageStyle'>  
-        <Header />
+        <Header />        
         <div className='homeHello'>          
           <img src={leprechaun} alt='leprechaun' className={`${roll ? "roll" : "img01"}`} />
           <div className='helloText'>
