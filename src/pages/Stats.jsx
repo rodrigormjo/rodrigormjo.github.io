@@ -13,7 +13,7 @@ class Stats extends React.Component {
 
   componentDidMount = () => {
     this.mostProccedBalls();
-    this.setState({loading: true});    
+    this.setState({loading: true});
   }
 
   cartela = () => {
@@ -63,7 +63,8 @@ class Stats extends React.Component {
 
 
   render(){
-    const {loading, ballCount} = this.state;    
+    const {loading, ballCount} = this.state;
+    console.log(ballCount);
     return(
       <div className='pageStyle'>
         <Header />      

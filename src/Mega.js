@@ -1,14 +1,32 @@
 export const mega = [
- {
-  "sorteio": 2468,
-  "bola1": 22,
-  "bola2": 35,
-  "bola3": 41,
-  "bola4": 42,
-  "bola5": 53,
-  "bola6": 57
- },
- {
+  {
+    "sorteio": 2470,
+    "bola1": 8,
+    "bola2": 33,
+    "bola3": 40,
+    "bola4": 42,
+    "bola5": 48,
+    "bola6": 51
+  },
+  {
+    "sorteio": 2469,
+    "bola1": 5,
+    "bola2": 28,
+    "bola3": 30,
+    "bola4": 38,
+    "bola5": 52,
+    "bola6": 55
+  },
+  {
+    "sorteio": 2468,
+    "bola1": 22,  
+    "bola2": 35,  
+    "bola3": 41,  
+    "bola4": 42,  
+    "bola5": 53,  
+    "bola6": 57
+  },
+  {
   "sorteio": 2467,
   "bola1": 1,
   "bola2": 10,

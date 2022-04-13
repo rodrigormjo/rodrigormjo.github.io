@@ -11,7 +11,7 @@ import Stats from './pages/Stats';
 function App() {  
   return (    
     <>      
-      <BrowserRouter basename="/https://rodrigormjo.github.io">
+      <BrowserRouter basename="rodrigormjo.github.io">
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/closure" component={ Closure } />
