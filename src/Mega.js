@@ -1,5 +1,23 @@
 export const mega = [
   {
+    "sorteio": 2472,
+    "bola1": 5,
+    "bola2": 13,
+    "bola3": 18,
+    "bola4": 23,
+    "bola5": 35,
+    "bola6": 36
+  },
+  {
+    "sorteio": 2471,
+    "bola1": 8,
+    "bola2": 23,
+    "bola3": 29,
+    "bola4": 30,
+    "bola5": 36,
+    "bola6": 55
+  },
+  {
     "sorteio": 2470,
     "bola1": 8,
     "bola2": 33,

@@ -3,6 +3,7 @@ import Clover from '../Components/Clover';
 import Header from '../Components/Header';
 import leprechaun from '../images/leprechaun.png';
 import {Redirect} from 'react-router-dom';
+import Lucky from '../Components/Lucky';
 
 class Home extends React.Component {
   constructor(props){
@@ -71,6 +72,8 @@ class Home extends React.Component {
           pushButton={this.ballCheck}
         />
         {(loading) && <Redirect to="/result" />}
+        <Lucky />
+        
       </div>
     );
   }

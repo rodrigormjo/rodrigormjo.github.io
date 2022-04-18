@@ -137,6 +137,21 @@
   .top {
     color: lime;
   }
+
+  .slots {
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .ballNumbers {
+    font-size: 20pt;
+  }
+
+  .sorteButton {
+    font-size: 20pt;
+  }
 }
 
 @media (min-width: 769px) {
@@ -272,5 +287,21 @@
 
   .top {
     color: lime;
+  }
+
+  .slots {
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .ballNumbers {
+    font-size: 20pt;
+  }
+
+  .sorteButton {
+    background-color: green;
+    font-size: 20pt;
   }
 }
